@@ -1,6 +1,6 @@
 const adminDetails = require("../../models/details/admin-details.model");
 const resetToken = require("../../models/reset-password.model");
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const ApiResponse = require("../../utils/ApiResponse");
 const jwt = require("jsonwebtoken");
 const sendResetMail = require("../../utils/SendMail");

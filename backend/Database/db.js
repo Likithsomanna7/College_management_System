@@ -4,7 +4,7 @@ const mongoURI = process.env.MONGODB_URI;
 
 const connectToMongo = () => {
   mongoose
-    .connect(mongoURI, { useNewUrlParser: true })
+    .connect(mongoURI)
     .then(() => {
       console.log("Connected to MongoDB Successfully");
     })
