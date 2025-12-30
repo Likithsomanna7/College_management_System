@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const GEMINI_API_KEY = "AIzaSyDu-zjFiHH5uEwm0U7p-bsUfG-nYTBGKv8"; // ⚠️ move to backend later
+const GEMINI_API_KEY = "AIzaSyDU_is5qZu04py5OiZ7YlDJ-4ebdVTrD40"; // ⚠️ move to backend later
 
 export default function GeminiChat() {
   const [messages, setMessages] = useState([]);
